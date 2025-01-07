@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Customer Dashboard</title>
+	</head>
+	<body>
+		<h1>Customer Dashboard</h1>
+		<h2>Search Flights</h2>
+		<form>
+			<label for="from">From:</label>
+			<input type="text" id="from" required />
+			<br />
+			<label for="to">To:</label>
+			<input type="text" id="to" required />
+			<br />
+			<label for="date">Date:</label>
+			<input type="date" id="date" required />
+			<br />
+			<button type="submit">Search Flights</button>
+		</form>
+
+		<h2>Available Flights</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Flight Number</th>
+					<th>From</th>
+					<th>To</th>
+					<th>Date</th>
+					<th>Price</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>AB123</td>
+					<td>New York</td>
+					<td>Los Angeles</td>
+					<td>2023-10-01</td>
+					<td>$300</td>
+					<td><button>Book Now</button></td>
+				</tr>
+				<tr>
+					<td>CD456</td>
+					<td>Chicago</td>
+					<td>Miami</td>
+					<td>2023-10-05</td>
+					<td>$250</td>
+					<td><button>Book Now</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Booking History</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Flight Number</th>
+					<th>Date</th>
+					<th>Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>EF789</td>
+					<td>2023-09-15</td>
+					<td>Confirmed</td>
+				</tr>
+				<tr>
+					<td>GH012</td>
+					<td>2023-09-20</td>
+					<td>Cancelled</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

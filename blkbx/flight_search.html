@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flight Search</title>
+</head>
+<body>
+    <h1>Search Flights</h1>
+    <form action="flight_results.html" method="get">
+        <label>From: <input type="text" name="origin" required></label><br>
+        <label>To: <input type="text" name="destination" required></label><br>
+        <label>Date: <input type="date" name="travel_date" required></label><br>
+        <label>Passengers: 
+            <select name="passengers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </label><br>
+        <input type="submit" value="Search Flights">
+    </form>
+    <p><a href="passenger_dashboard.html">Back to Dashboard</a></p>
+</body>
+</html>

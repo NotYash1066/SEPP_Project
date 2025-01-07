@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Manage Reservations - Airline Booking System</title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<h1>Manage Reservations</h1>
+		<form id="reservationForm">
+			<label for="reservationId">Reservation ID:</label>
+			<input type="text" id="reservationId" name="reservationId" required />
+			<br />
+			<button type="submit">View Reservation</button>
+		</form>
+		<button onclick="createReservation()">Create Reservation</button>
+		<button onclick="modifyReservation()">Modify Reservation</button>
+		<button onclick="cancelBooking()">Cancel Booking</button>
+		<button onclick="selectSeat()">Select Seat</button>
+		<script src="scripts/reservation.js"></script>
+	</body>
+</html>
